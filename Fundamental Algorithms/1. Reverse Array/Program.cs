@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Algorithms
+namespace _1._Reverse_Array
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
         }
