@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Reverse Array", "1. Reve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Nested Loops To Recursion", "2. Nested Loops To Recursion\2. Nested Loops To Recursion.csproj", "{38E85A4D-7958-4159-9826-F2A9C1800809}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Connected Areas in a Matrix", "3. Connected Areas in a Matrix\3. Connected Areas in a Matrix.csproj", "{6D43716F-1733-491C-8537-2E07F9AF3E64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{38E85A4D-7958-4159-9826-F2A9C1800809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38E85A4D-7958-4159-9826-F2A9C1800809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38E85A4D-7958-4159-9826-F2A9C1800809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D43716F-1733-491C-8537-2E07F9AF3E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D43716F-1733-491C-8537-2E07F9AF3E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D43716F-1733-491C-8537-2E07F9AF3E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D43716F-1733-491C-8537-2E07F9AF3E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{71C767CE-DEA9-43C1-8107-FD6428F3827B} = {B0875DA4-AB6D-4BF6-B8A6-6D0C821CE458}
 		{B909645B-F13C-4367-8AD0-3D132758A9EB} = {122F1FD9-BB77-4256-A832-915C86CFEA09}
 		{38E85A4D-7958-4159-9826-F2A9C1800809} = {122F1FD9-BB77-4256-A832-915C86CFEA09}
+		{6D43716F-1733-491C-8537-2E07F9AF3E64} = {122F1FD9-BB77-4256-A832-915C86CFEA09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F92031A-FB30-49C5-A992-D1049AD04713}
