@@ -9,7 +9,7 @@ namespace _6._Word_Cruncher
     {
         private static string[] parts;
         private static string targetWord;
-        private static IDictionary<int, ICollection<string>> indexPossibleParts = new Dictionary<int, ICollection<string>>();
+        private static IDictionary<int, ICollection<string>> indexCandidates = new Dictionary<int, ICollection<string>>();
         private static Stack<string> formedWord = new Stack<string>();
 
         public static void Main()
@@ -17,13 +17,11 @@ namespace _6._Word_Cruncher
             parts = Console.ReadLine().Split(", ");
             targetWord = Console.ReadLine();
 
-            FindWherePartCanBePlaced(0);
-
-            FormatWord(0);
-
+            FindCandidatesByIndex(0);
+            GenerateWord(0);
         }
 
-        private static void FindWherePartCanBePlaced(int index)
+        private static void FindCandidatesByIndex(int index)
         {
             if (index>=targetWord.Length)
             {
@@ -48,18 +46,18 @@ namespace _6._Word_Cruncher
                     continue;
                 }
 
-                if (!indexPossibleParts.ContainsKey(index))
+                if (!indexCandidates.ContainsKey(index))
                 {
-                    indexPossibleParts[index] = new HashSet<string>();
+                    indexCandidates[index] = new HashSet<string>();
                 }
 
-                indexPossibleParts[index].Add(part);
+                indexCandidates[index].Add(part);
             }
 
-            FindWherePartCanBePlaced(index + 1);
+            FindCandidatesByIndex(index + 1);
         }
 
-        private static void FormatWord(int index)
+        private static void GenerateWord(int index)
         {
             if (index >= targetWord.Length)
             {
@@ -68,7 +66,7 @@ namespace _6._Word_Cruncher
             }
 
             ICollection<string> candidateParts;
-            bool contains = indexPossibleParts.TryGetValue(index, out candidateParts);
+            bool contains = indexCandidates.TryGetValue(index, out candidateParts);
 
             if (!contains)
             {
@@ -80,7 +78,7 @@ namespace _6._Word_Cruncher
                 int candidateLength = candidate.Length;
 
                 formedWord.Push(candidate);
-                FormatWord(index + candidateLength);
+                GenerateWord(index + candidateLength);
                 formedWord.Pop();
             }
         }

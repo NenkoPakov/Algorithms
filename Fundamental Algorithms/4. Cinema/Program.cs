@@ -18,57 +18,46 @@ namespace _4._Cinema
             reservedSeats = new bool[people.Length];
 
             MarkReservedSeats();
-            GenerateSeatsVariations(0);
+
+            ICollection<int> nonReservedSeatIndexes = new List<int>();
+            for (int i = 0; i < reservedSeats.Length; i++)
+            {
+                if (!reservedSeats[i])
+                {
+                    nonReservedSeatIndexes.Add(i);
+                }
+            }
+
+            PermuteNonReservedSeats(nonReservedSeatIndexes.ToArray(), 0);
         }
 
-        private static void GenerateSeatsVariations(int seatIndex)
+        private static void PermuteNonReservedSeats(int[] nonReservedSeatIndexes, int seatIndex)
         {
-            int peopleCount = people.Length;
+            int seatsCount = nonReservedSeatIndexes.Length;
             int nextSeatIndex = seatIndex + 1;
 
-            if (nextSeatIndex >= peopleCount)
+            if (nextSeatIndex >= seatsCount)
             {
-                if ( areChanged)
-                {
-                    Console.WriteLine(string.Join(' ', people));
-                }
+                Console.WriteLine(string.Join(' ', people));
                 return;
             }
 
-            if (reservedSeats[seatIndex])
+            PermuteNonReservedSeats(nonReservedSeatIndexes, seatIndex + 1);
+
+            for (int nextIndex = nextSeatIndex; nextIndex < seatsCount; nextIndex++)
             {
-                GenerateSeatsVariations(nextSeatIndex);
-                return;
-            }
 
-            GenerateSeatsVariations(nextSeatIndex);
-
-            for (int nextIndex = nextSeatIndex; nextIndex < peopleCount; nextIndex++)
-            {
-                areChanged = TryChangePeopleSeats(seatIndex, nextIndex);
-                GenerateSeatsVariations(nextSeatIndex);
-
-                if (areChanged)
-                {
-                    TryChangePeopleSeats(seatIndex, nextIndex);
-                }
-
-                areChanged = false;
+                SwapSeats(nonReservedSeatIndexes[seatIndex], nonReservedSeatIndexes[nextIndex]);
+                PermuteNonReservedSeats(nonReservedSeatIndexes, seatIndex + 1);
+                SwapSeats(nonReservedSeatIndexes[seatIndex], nonReservedSeatIndexes[nextIndex]);
             }
         }
 
-        private static bool TryChangePeopleSeats(int firstSeat, int secondSeat)
+        private static void SwapSeats(int firstSeat, int secondSeat)
         {
-            if (firstSeat == secondSeat || reservedSeats[firstSeat] || reservedSeats[secondSeat])
-            {
-                return false;
-            }
-
             string temporaryPersonSeat = people[secondSeat];
             people[secondSeat] = people[firstSeat];
             people[firstSeat] = temporaryPersonSeat;
-
-            return true;
         }
 
         private static void MarkReservedSeats()
