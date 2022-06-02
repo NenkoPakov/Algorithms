@@ -10,7 +10,6 @@ namespace _4._Cinema
 
         private static string[] people;
         private static bool[] reservedSeats;
-        private static bool areChanged = true;
 
         static void Main()
         {
@@ -28,7 +27,7 @@ namespace _4._Cinema
                 }
             }
 
-            PermuteNonReservedSeats(nonReservedSeatIndexes.ToArray(), 0);
+            PermuteNonReservedSeats(nonReservedSeatIndexes.ToArray(), FIRST_SEAT_INDEX);
         }
 
         private static void PermuteNonReservedSeats(int[] nonReservedSeatIndexes, int seatIndex)
