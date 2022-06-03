@@ -45,19 +45,27 @@ namespace _5._Quicksort
                     leftIndex++;
                 }
 
-                if (leftNumber >= pivotNumber)
+                if (rightNumber >= pivotNumber)
                 {
                     rightIndex--;
                 }
             }
 
-            if (leftIndex != initialLeftIndex)
+            if (pivotIndex != rightIndex)
             {
                 SwapNumbers(pivotIndex, rightIndex);
             }
 
-            QuickSort(startIndex, rightIndex - 1);
-            QuickSort(rightIndex + 1, endIndex);
+            if (rightIndex - 1 - startIndex < endIndex - (rightIndex + 1))
+            {
+                QuickSort(startIndex, rightIndex - 1);
+                QuickSort(rightIndex + 1, endIndex);
+            }
+            else
+            {
+                QuickSort(rightIndex + 1, endIndex);
+                QuickSort(startIndex, rightIndex - 1);
+            }
         }
 
         private static void SwapNumbers(int firstNumberIndex, int secondNumberIndex)
