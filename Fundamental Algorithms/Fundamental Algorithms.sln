@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.  Queens Puzzle", "6.  Qu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Recursive Fibonacci", "7. Recursive Fibonacci\7. Recursive Fibonacci.csproj", "{71C767CE-DEA9-43C1-8107-FD6428F3827B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Recursion-and-Backtracking-Lab", "01. Recursion-and-Backtracking-Lab", "{B0875DA4-AB6D-4BF6-B8A6-6D0C821CE458}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion-and-Backtracking-Lab", "Recursion-and-Backtracking-Lab", "{B0875DA4-AB6D-4BF6-B8A6-6D0C821CE458}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Recursion-and-Combinatorial-Problems-Exercise", "03. Recursion-and-Combinatorial-Problems-Exercise", "{122F1FD9-BB77-4256-A832-915C86CFEA09}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion-and-Combinatorial-Problems-Exercise", "Recursion-and-Combinatorial-Problems-Exercise", "{122F1FD9-BB77-4256-A832-915C86CFEA09}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Reverse Array", "1. Reverse Array\1. Reverse Array.csproj", "{B909645B-F13C-4367-8AD0-3D132758A9EB}"
 EndProject
@@ -56,6 +56,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Sum of Coins", "7. Sum of Coins\7. Sum of Coins.csproj", "{E68A4B71-9B0B-4663-A918-1E7262C9E86E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Set Cover", "8. Set Cover\8. Set Cover.csproj", "{9C55FF4E-2C79-41EA-A8BF-659702F04C53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph Theory Traversal and Shortest Paths", "Graph Theory Traversal and Shortest Paths", "{14553551-1085-4A02-8421-F54F01E9D143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Distance Between Vertices", "1. Distance Between Vertices\1. Distance Between Vertices.csproj", "{F1F94D07-6715-4AAD-9F82-0160E77F6702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Areas in Matrix", "2. Areas in Matrix\2. Areas in Matrix.csproj", "{84C95893-BE53-4B03-809B-3C684601AACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Cycles in a Graph", "3. Cycles in a Graph\3. Cycles in a Graph.csproj", "{3746CD9C-FDBF-4EB8-8455-682EE4D46981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +167,18 @@ Global
 		{9C55FF4E-2C79-41EA-A8BF-659702F04C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C55FF4E-2C79-41EA-A8BF-659702F04C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C55FF4E-2C79-41EA-A8BF-659702F04C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F94D07-6715-4AAD-9F82-0160E77F6702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F94D07-6715-4AAD-9F82-0160E77F6702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F94D07-6715-4AAD-9F82-0160E77F6702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F94D07-6715-4AAD-9F82-0160E77F6702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C95893-BE53-4B03-809B-3C684601AACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C95893-BE53-4B03-809B-3C684601AACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C95893-BE53-4B03-809B-3C684601AACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C95893-BE53-4B03-809B-3C684601AACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3746CD9C-FDBF-4EB8-8455-682EE4D46981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3746CD9C-FDBF-4EB8-8455-682EE4D46981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3746CD9C-FDBF-4EB8-8455-682EE4D46981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3746CD9C-FDBF-4EB8-8455-682EE4D46981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +208,8 @@ Global
 		{4A1BB8DC-65DA-4862-BD4E-CD9A90A6884B} = {3EE5C9C6-A5E0-4556-8BCB-C2CACB3EE063}
 		{E68A4B71-9B0B-4663-A918-1E7262C9E86E} = {3EE5C9C6-A5E0-4556-8BCB-C2CACB3EE063}
 		{9C55FF4E-2C79-41EA-A8BF-659702F04C53} = {3EE5C9C6-A5E0-4556-8BCB-C2CACB3EE063}
+		{F1F94D07-6715-4AAD-9F82-0160E77F6702} = {14553551-1085-4A02-8421-F54F01E9D143}
+		{84C95893-BE53-4B03-809B-3C684601AACB} = {14553551-1085-4A02-8421-F54F01E9D143}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F92031A-FB30-49C5-A992-D1049AD04713}
