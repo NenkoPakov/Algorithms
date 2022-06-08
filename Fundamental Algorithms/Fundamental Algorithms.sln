@@ -41,35 +41,43 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Binary Search", "1. Bina
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linear Search", "Linear Search\Linear Search.csproj", "{98F117C9-D208-4409-9C1B-A394C28BCBCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Selection Sort", "2. Selection Sort\2. Selection Sort.csproj", "{F2A62BA7-66D2-4E55-9A87-8B2E5C12E53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Selection Sort", "2. Selection Sort\2. Selection Sort.csproj", "{F2A62BA7-66D2-4E55-9A87-8B2E5C12E53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Bubble Sort", "3. Bubble Sort\3. Bubble Sort.csproj", "{D2088409-1A1C-4C0E-A3E6-546DE89FB398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Bubble Sort", "3. Bubble Sort\3. Bubble Sort.csproj", "{D2088409-1A1C-4C0E-A3E6-546DE89FB398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Insertion Sort", "4. Insertion Sort\4. Insertion Sort.csproj", "{4E56796A-8585-4520-B662-463442D81A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Insertion Sort", "4. Insertion Sort\4. Insertion Sort.csproj", "{4E56796A-8585-4520-B662-463442D81A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Quicksort", "5. Quicksort\5. Quicksort.csproj", "{0E1B93B0-E44B-46B0-866A-AC59B1AEB0ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Quicksort", "5. Quicksort\5. Quicksort.csproj", "{0E1B93B0-E44B-46B0-866A-AC59B1AEB0ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Merge Sort by creating new arrays", "6. Merge Sort by creating new arrays\6. Merge Sort by creating new arrays.csproj", "{C70B6557-8756-46BD-BEBB-D72809465398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Merge Sort by creating new arrays", "6. Merge Sort by creating new arrays\6. Merge Sort by creating new arrays.csproj", "{C70B6557-8756-46BD-BEBB-D72809465398}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Merge Sort by swapping elements", "6. Merge Sort by swapping elements\6. Merge Sort by swapping elements.csproj", "{4A1BB8DC-65DA-4862-BD4E-CD9A90A6884B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Sum of Coins", "7. Sum of Coins\7. Sum of Coins.csproj", "{E68A4B71-9B0B-4663-A918-1E7262C9E86E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Sum of Coins", "7. Sum of Coins\7. Sum of Coins.csproj", "{E68A4B71-9B0B-4663-A918-1E7262C9E86E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Set Cover", "8. Set Cover\8. Set Cover.csproj", "{9C55FF4E-2C79-41EA-A8BF-659702F04C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. Set Cover", "8. Set Cover\8. Set Cover.csproj", "{9C55FF4E-2C79-41EA-A8BF-659702F04C53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph Theory Traversal and Shortest Paths", "Graph Theory Traversal and Shortest Paths", "{14553551-1085-4A02-8421-F54F01E9D143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Distance Between Vertices", "1. Distance Between Vertices\1. Distance Between Vertices.csproj", "{F1F94D07-6715-4AAD-9F82-0160E77F6702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Distance Between Vertices", "1. Distance Between Vertices\1. Distance Between Vertices.csproj", "{F1F94D07-6715-4AAD-9F82-0160E77F6702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Areas in Matrix", "2. Areas in Matrix\2. Areas in Matrix.csproj", "{84C95893-BE53-4B03-809B-3C684601AACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Areas in Matrix", "2. Areas in Matrix\2. Areas in Matrix.csproj", "{84C95893-BE53-4B03-809B-3C684601AACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Cycles in a Graph", "3. Cycles in a Graph\3. Cycles in a Graph.csproj", "{3746CD9C-FDBF-4EB8-8455-682EE4D46981}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Cycles in a Graph", "3. Cycles in a Graph\3. Cycles in a Graph.csproj", "{3746CD9C-FDBF-4EB8-8455-682EE4D46981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Salaries", "4. Salaries\4. Salaries.csproj", "{101086C8-DE24-432D-847D-88A44454542C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Salaries", "4. Salaries\4. Salaries.csproj", "{101086C8-DE24-432D-847D-88A44454542C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Break Cycles", "5. Break Cycles\5. Break Cycles.csproj", "{D46EA451-B060-446A-8048-72AC95D1055D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Break Cycles", "5. Break Cycles\5. Break Cycles.csproj", "{D46EA451-B060-446A-8048-72AC95D1055D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Road Reconstruction", "6. Road Reconstruction\6. Road Reconstruction.csproj", "{76C877EE-CE91-4A75-9593-7DAE3260B29C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Road Reconstruction", "6. Road Reconstruction\6. Road Reconstruction.csproj", "{76C877EE-CE91-4A75-9593-7DAE3260B29C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction to Dynamic Programming", "Introduction to Dynamic Programming", "{F2C42555-116D-477E-9194-FCFC2C1397AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Binomial Coefficients", "1. Binomial Coefficients\1. Binomial Coefficients.csproj", "{220662A7-980B-4892-9D9B-A86DBBBCCE52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Dividing Presents", "2. Dividing Presents\2. Dividing Presents.csproj", "{748A03F9-5AA8-4665-B485-7F8FB624FEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Sum with Unlimited Amount of Coins", "3. Sum with Unlimited Amount of Coins\3. Sum with Unlimited Amount of Coins.csproj", "{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +205,18 @@ Global
 		{76C877EE-CE91-4A75-9593-7DAE3260B29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76C877EE-CE91-4A75-9593-7DAE3260B29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76C877EE-CE91-4A75-9593-7DAE3260B29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220662A7-980B-4892-9D9B-A86DBBBCCE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220662A7-980B-4892-9D9B-A86DBBBCCE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220662A7-980B-4892-9D9B-A86DBBBCCE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220662A7-980B-4892-9D9B-A86DBBBCCE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748A03F9-5AA8-4665-B485-7F8FB624FEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748A03F9-5AA8-4665-B485-7F8FB624FEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748A03F9-5AA8-4665-B485-7F8FB624FEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748A03F9-5AA8-4665-B485-7F8FB624FEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -232,6 +252,9 @@ Global
 		{101086C8-DE24-432D-847D-88A44454542C} = {14553551-1085-4A02-8421-F54F01E9D143}
 		{D46EA451-B060-446A-8048-72AC95D1055D} = {14553551-1085-4A02-8421-F54F01E9D143}
 		{76C877EE-CE91-4A75-9593-7DAE3260B29C} = {14553551-1085-4A02-8421-F54F01E9D143}
+		{220662A7-980B-4892-9D9B-A86DBBBCCE52} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
+		{748A03F9-5AA8-4665-B485-7F8FB624FEE7} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
+		{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F92031A-FB30-49C5-A992-D1049AD04713}
