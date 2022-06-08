@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _3._Sum_with_Unlimited_Amount_of_Coins
+namespace _4._Sum_with_Limited_Amount_of_Coins
 {
     public static class Program
     {
@@ -17,18 +17,27 @@ namespace _3._Sum_with_Unlimited_Amount_of_Coins
 
         private static int GenerateAllCombinations(int[] coins, int targetSum)
         {
-            int[] sums = new int[targetSum + 1];
-            sums[0] = 1;
+            int combinations = 0;
+            HashSet<int> sums = new HashSet<int>() { 0 };
 
             foreach (int coin in coins)
             {
-                for (int sum = coin; sum <= targetSum; sum++)
+                IEnumerable<int> currentSums = sums.ToArray();
+
+                foreach (int sum in currentSums)
                 {
-                    sums[sum] += sums[sum - coin];
+                    int currentSum = coin + sum;
+
+                    sums.Add(currentSum);
+
+                    if (currentSum == targetSum)
+                    {
+                        combinations++;
+                    }
                 }
             }
 
-            return sums[targetSum];
+            return combinations;
         }
     }
 }
