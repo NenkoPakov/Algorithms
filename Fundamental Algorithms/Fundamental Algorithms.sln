@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Sum with Unlimited Amoun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Sum with Limited Amount of Coins", "4. Sum with Limited Amount of Coins\4. Sum with Limited Amount of Coins.csproj", "{B27C37AE-EB20-4E17-94F6-C4F0B253FCE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Word Differences", "5. Word Differences\5. Word Differences.csproj", "{91CDD5F9-751A-49C2-8CBB-097D40AFB525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,10 @@ Global
 		{B27C37AE-EB20-4E17-94F6-C4F0B253FCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27C37AE-EB20-4E17-94F6-C4F0B253FCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27C37AE-EB20-4E17-94F6-C4F0B253FCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CDD5F9-751A-49C2-8CBB-097D40AFB525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CDD5F9-751A-49C2-8CBB-097D40AFB525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CDD5F9-751A-49C2-8CBB-097D40AFB525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CDD5F9-751A-49C2-8CBB-097D40AFB525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +268,7 @@ Global
 		{748A03F9-5AA8-4665-B485-7F8FB624FEE7} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
 		{E55A4FC7-D6F4-44E2-A36B-191228C8BCB5} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
 		{B27C37AE-EB20-4E17-94F6-C4F0B253FCE1} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
+		{91CDD5F9-751A-49C2-8CBB-097D40AFB525} = {F2C42555-116D-477E-9194-FCFC2C1397AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F92031A-FB30-49C5-A992-D1049AD04713}
